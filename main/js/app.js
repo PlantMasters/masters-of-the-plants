@@ -5,6 +5,6 @@ angular.module('plantMasters', ['ui.router'])
         .state('landing', {
             url:'/',
             controller: 'landingCtrl',
-            templateUrl: 'views/landing.html'
+            templateUrl: 'views/landing.html' //path based on where the index file is in public
         })
 })
